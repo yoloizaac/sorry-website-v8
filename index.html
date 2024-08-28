@@ -456,11 +456,11 @@
             modalImage.src = src;
             modalCaption.textContent = caption;
         }
-        var images = ['images/photo1.jpeg', 'images/photo2.jpeg', 'images/photo3.jpeg'];
+        var images = ['photo1.jpeg', 'photo2.jpeg', 'photo3.jpeg'];
         images.forEach(function(src) {
             var img = new Image();
             img.src = src;
-        });
+});
         function closePhotoModal() {
             document.getElementById('photoModal').style.display = 'none';
         }
